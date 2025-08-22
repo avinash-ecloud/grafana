@@ -1,7 +1,7 @@
 app:
     name: grafana
     code: Grafana
-    notify: bkoshy@ecloudcontrol.com
+    notify: adinesh@ecloudcontrol.com
     
 build:
     version: 7.0
@@ -38,5 +38,5 @@ properties:
     GF_AUTH_GENERIC_OAUTH_API_URL: https://appz-avinash.lowtouchcloud.io/openid/userinfo 
     GF_AUTH_GENERIC_OAUTH_NAME_ATTRIBUTE_PATH: anyname
     GF_AUTH_GENERIC_OAUTH_ROLE_ATTRIBUTE_PATH: contains(roles[*], 'admin') && 'Admin' || 'Viewer'
-    GF_SERVER_ROOT_URL: https://avinash-dinesh-grafana-7-0.038ecc66.lowtouch.cloud
+    GF_SERVER_ROOT_URL: https://avinash-dinesh-grafana.lowtouch.cloud.io
     revision: 02
